@@ -1,0 +1,125 @@
+
+
+/*   general use classes */
+body{
+    border-sizing: border-box;
+}
+
+
+.limited {
+    width: 400px;
+    height: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 1em;
+
+}
+
+
+.horizontal-align{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.vertical-align{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+
+.flex-prop{
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.border-mine{
+    border: 3px ridge #ad6b08;
+
+}
+
+.size-300x300{
+    width: 300px;
+    height:300px;
+}
+
+
+/* nav bar at top */
+
+.btn-primary {
+    background-color: #A3B3C4;
+}
+
+.btn-primary:hover {
+    background-color: coral;
+
+}
+
+/* table design */
+
+tr img.fix-img {
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+
+
+/* navigation at bottom */
+
+section nav ul li{
+    width: 300px;
+    height: 50px;
+    border-style: hidden;
+    border-radius: 1.5em;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #e4405f;
+    color:whitesmoke;
+
+}
+
+section nav ul li:hover{
+    color:whitesmoke;
+    background-color: #740110ea;
+    transition: all 0.5s ease-out;
+}
+
+.without-line{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.without-line:hover{
+    text-decoration: underline;
+    color:whitesmoke;
+}
+
+
+
+/* this section is belong to over-ride bootstrap css */
+
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+
+.card{
+    background-color:rgb(94, 92, 92);
+    color:whitesmoke;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.form-control{
+    width: 500px;
+}
+
+.test-test{
+    flex:content ;
+}

@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+
+}
+
+
+body {
+
+    /*  margin:0px;*/
+
+
+}
+
+#rock {
+    margin: 60px;
+    width: 200px;
+    height: 120px;
+    background-color: yellow;
+    overflow: hidden;
+
+}
+
+#rock:hover {
+    overflow: visible;
+}
+
+#btn {
+    width: 50px;
+    height: 20px;
+}
+
+.restricted-size img {
+
+    max-width: 500px;
+    max-height: 500px;
+
+}
+
+#div-flex-box {
+    margin: 10px auto;
+    background-color: rgb(204, 51, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    /*    flex-direction: column;*/
+    /*    flex-wrap: wrap;*/
+    /*    flex-flow: row wrap;      short hand for both flex direction and wrap*/
+    justify-content: center;
+    /*    flex-start flex-end space-between space-around center*/
+    align-items: center;
+    /*    stretch flex-start flex-end space-between space-around center*/
+    /*    align-content: center;  ---stretch flex-start flex-end space-between space-around */
+
+}
+
+#div-flex-box > div {
+    /*    > means direct child*/
+
+    background-color: rgb(51, 51, 153);
+    width: 100px;
+    height: 60px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#child-box {
+    width: 600px;
+    height: 300px;
+    background-color: #AAA;
+    margin: 10px;
+    display: flex;
+/*    justify-content: space-around;*/
+/*    align-items: center;*/
+
+}
+
+#child-box > div {
+    width: 60px;
+    height: 60px;
+    background-color: darkmagenta;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 4px;
+
+}
+
+/*
+#div-no-3 {
+    order: 2;
+    color: #080;
+    flex-grow: 1.5;
+    flex-shrink: 0;
+    flex-basis: 200px;
+shorthand property for grow\shrink\basis :::
+    flex: 0 0 200px;
+    align-self: center; --- this will override the prop. of the parent div
+    align-self values are (center , flex-start , flex-end)
+    
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

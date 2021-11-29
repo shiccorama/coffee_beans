@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew-Coffee-Beans</title>
+    <link rel="stylesheet" href="../css/task2-p3.css" />
+
+</head>
+
+<body class="main-container">
+    <div class="logo-menu">
+
+        <a href="task2-v00-p1.html"> <img src="../image/logo.PNG" alt="Brew-Coffee-Beans" class="logo-design"></a>
+
+        <ul class="nav-bar">
+            <button><a href="task2-v00-p1.html"><li>Home</li></a></button><br/>
+            <button><a href="task2-v00-p2.html"><li>Login</li></a></button><br/>
+            <button><a href="task2-v00-p3.html"><li>Registration</li></a></button><br/>
+            <button><a href="task2-v00-p4.html"><li>Products</li></a></button><br/>
+            <button><a href="task2-v00-p5.html"><li>Prices</li></a></button><br/>
+            <button><a href="task2-v00-p6.html"><li>Photo Galllery</li></a></button><br/>
+            <button><a href="task2-v00-p7.html"><li>Contact Us</li></a></button><br/>
+            <button><a href="task2-v00-p8.html"><li>About</li></a></button>
+        </ul>
+        <div>
+            <img class="social-media" src="../image/social-1.jpg" alt="social media" width="290px" height="250px">
+
+        </div>
+        <div class="centered-div">
+            <form class="login-form" name="login" method="GET" enctype="multipart/form-data">
+                <label>First Name</label>
+                <input type="text" name="first-name" placeholder="First Name" required maxlength="10" minlength="5" autofocus/>
+                <label>Last Name</label>
+                <input type="text" name="last-name" placeholder="Family Name" required maxlength="10" minlength="5" />
+                <label>User Name</label>
+                <input type="text" name="last-name" placeholder="Family Name" required maxlength="10" minlength="5" />
+                <label>Email</label>
+                <input type="email" required placeholder="Enter valid Email">
+                <label>PassWord</label>
+                <!-- pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" -->
+                <input type="password" value="min. length = 8 ch." name="pass-word" minlength="8" required/><br/><br/>
+                <label class="radio-button">Gender</label><br/>
+                <input type="radio" name="gender" id="male" value="male">
+                <label>Male</label>
+                <input type="radio" name="gender" id="female" value="male">
+                <label>Female</label><br/><br/>
+                <label>Upload your image</label>
+                <input type="file" id="reset-this-root"><br/><br/>
+                <label>Tell us how coffee means to you:</label>
+                <textarea rows="10" cols="50" name="comment"></textarea><br/>
+                <label>I agree on the terms of this website</label>
+                <input type="checkbox" id="check-box"><br/>
+                <input type="reset" value="Clear All" id="reset">
+                <input type="submit" value="Sign Me up" id="sign-up"><br/>
+
+
+
+            </form>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

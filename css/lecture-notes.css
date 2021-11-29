@@ -1,0 +1,13 @@
+.table-style {
+    border: 10px #f00;
+    text-align: center;
+}
+
+table tr td {
+    border-style: solid;
+}
+
+body {
+    background-image: url("image/minecraft.png");
+    background-size: contain;
+}

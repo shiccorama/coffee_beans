@@ -1,0 +1,139 @@
+.main-container {
+    background-image: url("../image/coffee/pexels-photo-2568452.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+
+.anonymous {
+    position: relative;
+}
+
+.logo-menu {
+    background-color: rgba(182, 141, 76, 1);
+    width: 300px;
+    height: 100%;
+    margin: 0px;
+    outline: 10px solid #4d2600;
+}
+
+.logo-design {
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 270px 270px;
+    border-style: solid;
+    border-left-width: 5px;
+    border-right-width: 0px;
+    border-color: #5A3E51;
+}
+
+.nav-bar {
+    background-color: #B87C4C;
+}
+
+.nav-bar li {
+    list-style-type: none;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #a7b303;
+}
+
+.nav-bar button {
+    background-color: #553e51;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 250px;
+    height: 30px;
+    position: center;
+}
+
+.nav-bar button :hover {
+    background-color: #4d004d;
+    color: brown;
+}
+
+.social-media {
+    border: 2px solid rgb(24, 0, 24);
+    background-color: rgb(19, 1, 19);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.centered-div {
+    position: absolute;
+    left: 400px;
+    top: 0px;
+    opacity: 0.8;
+    width: 1017px;
+    height: 1050px;
+    text-align: center;
+    margin: 50px;
+}
+
+.intro-div {
+    background-color: #997300;
+    color: whitesmoke;
+    width: 750px;
+    border-style: groove;
+    border-width: 14px;
+    border-color: #4d3900;
+}
+
+.four-parts {
+    background-color: #997300;
+    color: whitesmoke;
+    width: 150px;
+    border-top-style: ridge;
+    border-width: 8px;
+    margin-top: 50px;
+    border-color: #4d3900;
+    border-right-style: ridge;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    float: left;
+    margin-right: 37px;
+    margin-bottom: 50px;
+}
+
+.crew-team {
+    border-color: #4d3900;
+    border-style: solid;
+    margin-top: 30px;
+    color: whitesmoke;
+    background-color: rgb(100, 100, 100);
+    border-radius: 10px;
+    position: absolute;
+    left: 0px;
+    top: 700px;
+}
+
+.four-persona {
+    position: absolute;
+    top: 1350px;
+    left: 0px;
+    background-color: #997300;
+    color: whitesmoke;
+    width: 770px;
+    height: 280px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.four-persona td {
+    margin: 10px;
+    border-style: groove groove hidden hidden;
+    border-color: #4d3900;
+    border-radius: 50px;
+}
+
+.employee-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}

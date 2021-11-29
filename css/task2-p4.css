@@ -1,0 +1,93 @@
+.main-container {
+    background-color: #471B58;
+    background-repeat: no-repeat;
+    background-size: 1100px 1000px;
+    background-position: top right;
+}
+
+.logo-menu {
+    background-color: rgba(182, 141, 76, 1);
+    width: 300px;
+    height: 1090px;
+    margin: 0px;
+    outline: 10px solid #4d2600;
+}
+
+.logo-design {
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 270px 270px;
+    border-style: solid;
+    border-left-width: 5px;
+    border-right-width: 0px;
+    border-color: #5A3E51;
+    opacity: 0.75;
+}
+
+.nav-bar {
+    background-color: #B87C4C;
+    position: relative;
+}
+
+.nav-bar li {
+    list-style-type: none;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #a7b303;
+}
+
+.nav-bar button {
+    background-color: #553e51;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 250px;
+    height: 30px;
+    position: center;
+}
+
+.nav-bar button :hover {
+    background-color: #4d004d;
+    color: brown;
+}
+
+.social-media {
+    border: 2px solid rgb(24, 0, 24);
+    background-color: rgb(19, 1, 19);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.centered-div {
+    position: absolute;
+    left: 270px;
+    top: 0px;
+    background-color: #553e51;
+    width: 1017px;
+    height: 1050px;
+    text-align: center;
+    margin: 50px;
+}
+
+.centered-div td {
+    color: #a7b303;
+    border: 3px #412728 solid;
+    box-shadow: 0 10px 10px 0 grey;
+}
+
+.img-hover {
+    opacity: 1;
+}
+
+img-hover:hover {
+    opacity: 0.2;
+}
+
+table button {
+    box-shadow: #9f7a98 2px 2px 5px 1px;
+}

@@ -1,0 +1,189 @@
+/*general css*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CCC;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+#related-div {
+    position: relative;
+}
+
+.decor-link {
+    text-decoration: none;
+    font-size: 16px;
+}
+  
+
+/* this is how we use fontface or fonts from outside */
+@font-face {
+    src: url(../font/AlexBrush-Regular.ttf);
+    font-family: "alex-brush";
+}
+
+
+/*logo division*/
+
+.logo-div {
+    padding: 23px 15px 5px 15px;
+}
+
+.logo-div a {
+    font-size: 50px;
+    font-family: "alex-brush";
+    font-weight: 1000;
+    color: #000;
+}
+
+
+.logo-div a:hover {
+    font-size: 50px;
+    font-family: "alex-brush";
+    font-weight: 1000;
+    color: #4CAF50;
+}
+
+.logo-div span {
+    color: #4CAF50;
+}
+
+#slogan {
+    position: absolute;
+    left: 750px;
+    top: 35px;
+    font-family: cursive;
+
+}
+
+#log-in {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 21px;
+    opacity: 0.9;
+    font-weight: 800;
+    position: absolute;
+    top: 45px;
+    left: 1170px;
+
+}
+
+#log-in:hover {
+    opacity: 1;
+
+}
+
+/*navigation bar*/
+
+#nav-bar {
+    position: sticky;
+    width: 100%;
+    /*    border:1px solid;*/
+    height: 55px;
+    background-color: #4CAF50;
+    color: white;
+
+}
+
+
+
+.right-icons {
+
+    position: absolute;
+    top: 0px;
+    left: 1096px;
+
+
+}
+
+.square {
+    background-color: #4CAF50;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+
+
+}
+
+.square:hover {
+    background-color: #fff;
+    color: #000;
+
+}
+
+.hidden-search {
+    display: none;
+    position: absolute;
+    top: 14px;
+    right: 80px;
+    z-index: 2;
+
+}
+
+#search-box {
+    width: 380px;
+    height: 30px;
+    display: inline;
+
+
+}
+
+/*
+#search-button::selection{
+    .hidden-search {
+         display: contents;
+    }
+
+}
+*/
+
+
+
+#submit-box {
+    width: 70px;
+    height: 26px;
+    display: inline;
+    background-color:rgb(53, 122, 232);
+    color:#fff;
+}
+
+.main-menu button {
+    border: none;
+    width: 150px;
+    height: 55px;
+    padding-right: 0px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 20px;
+}
+
+.main-menu button:hover {
+
+    background-color: #fff;
+    color: #000;
+
+}
+
+
+
+.fa-sort-down {
+    padding-left: 10px;
+    padding-bottom: 12px;
+    font-size: 30px;
+}

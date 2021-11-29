@@ -1,0 +1,135 @@
+.main-container {
+    background-image: url("../image/coffee/pexels-photo-1841183.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+
+.anonymous {
+    position: relative;
+}
+
+.logo-menu {
+    background-color: rgba(182, 141, 76, 1);
+    width: 300px;
+    height: 100%;
+    margin: 0px;
+    outline: 10px solid #4d2600;
+}
+
+.logo-design {
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 270px 270px;
+    border-style: solid;
+    border-left-width: 5px;
+    border-right-width: 0px;
+    border-color: #5A3E51;
+}
+
+.nav-bar {
+    background-color: #B87C4C;
+}
+
+.nav-bar li {
+    list-style-type: none;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #a7b303;
+}
+
+.nav-bar button {
+    background-color: #553e51;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 250px;
+    height: 30px;
+    position: center;
+}
+
+.nav-bar button :hover {
+    background-color: #4d004d;
+    color: brown;
+}
+
+.social-media {
+    border: 2px solid rgb(24, 0, 24);
+    background-color: rgb(19, 1, 19);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.left-div {
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    opacity: 0.8;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    margin: 50px;
+}
+
+textarea {
+    resize: none;
+    font-style: italic;
+    font-size: 15px;
+    color: #4d004d;
+    background-color: #ffe6ff;
+}
+
+#contact-form {
+    color: brown;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+}
+
+.left-div h2 {
+    color: yellow;
+}
+
+.iframe-div {
+    position: absolute;
+    left: 800px;
+    top: 120px;
+    outline-style: ridge;
+    outline-color: grey;
+    ;
+}
+
+#get-in-touch {
+    position: absolute;
+    left: 400px;
+    top: 600px;
+    background-color: rgb(73, 23, 104, 0.45);
+    width: 800px;
+    height: 280px;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+#address {
+    text-align: left;
+    margin: 30px;
+    float: left;
+    width: 300px;
+}
+
+#email {
+    text-align: center;
+    margin: 30px;
+    float: left;
+}
+
+#telephone {
+    text-align: center;
+    margin: 30px;
+    float: left;
+}

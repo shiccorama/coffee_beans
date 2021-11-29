@@ -1,0 +1,137 @@
+.main-container {
+    background-image: url("../image/coffee/pexels-photo-555791788.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+
+.anonymous {
+    position: relative;
+}
+
+.logo-menu {
+    background-color: rgba(182, 141, 76, 1);
+    width: 300px;
+    height: 100%;
+    margin: 0px;
+    outline: 10px solid #4d2600;
+}
+
+.logo-design {
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 270px 270px;
+    border-style: solid;
+    border-left-width: 5px;
+    border-right-width: 0px;
+    border-color: #5A3E51;
+}
+
+.nav-bar {
+    background-color: #B87C4C;
+}
+
+.nav-bar li {
+    list-style-type: none;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #a7b303;
+}
+
+.nav-bar button {
+    background-color: #553e51;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 250px;
+    height: 30px;
+    position: center;
+}
+
+.nav-bar button :hover {
+    background-color: #4d004d;
+    color: brown;
+}
+
+/*
+.social-media {
+    border: 2px solid #270827;
+    background-color: rgb(19, 1, 19);
+    border-radius: 20px;
+    padding: 2px;
+}
+*/
+
+.fab{
+    color:purple;
+    background-color: yellowgreen;
+    font-size: 35px;
+    font-weight: 200;
+    margin: 20px;
+   
+    
+}
+
+@font-face {
+    src: url("../font/ArbFONTS-B Ziba.ttf");
+    font-family: "ziba";
+    
+}
+
+#arab-font{
+    font-family: "ziba";
+    font-weight: 500;
+    font-style: bolder;
+    color: whitesmoke;
+}
+
+#cap-font {
+    font-family: "american-font", sans-serif;
+}
+
+
+.centered-div {
+    position: absolute;
+    left: 400px;
+    top: 0px;
+    opacity: 0.8;
+    width: 1017px;
+    height: 1050px;
+    text-align: center;
+    margin: 50px;
+}
+
+#price-table {
+    width: 700px;
+    height: 500px;
+    background-color: rgb(73, 23, 104);
+    color: yellow;
+}
+
+#price-table caption {
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(73, 23, 104)
+}
+
+#tax-table {
+    width: 200px;
+    height: 50px;
+    border: 3px solid yellow;
+    margin-left: 80px;
+}
+
+#tax-table td {
+    border: 1px solid yellow;
+}
+
+.fab fa-facebook-f {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}

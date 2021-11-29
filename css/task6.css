@@ -1,0 +1,372 @@
+/*   general use classes */
+
+.body-container {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.general-anchor{
+    text-decoration: none;
+
+}
+
+@font-face {
+    src: url(../font/cour.ttf);
+    font-family: "monadi";
+}
+
+* {
+    border-sizing: border-box;
+    font-family: "monadi";
+
+}
+
+
+.reset-m-p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.margin-25 {
+    margin-top: 25px;
+}
+
+.margin-50 {
+    margin-top: 50px;
+}
+
+
+.relative-pose {
+    position: relative;
+}
+
+.absolute.pose {
+    position: absolute;
+}
+
+
+.limited {
+    width: 400px;
+    height: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 1em;
+
+}
+
+.horizontal-align-row {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.vertical-align-row {
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-items: center; */
+
+}
+
+.horizontal-align-col {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vertical-align-col {
+    flex-direction: column;
+    /* align-items: flex-end; */
+
+}
+
+.flex-prop {
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.border-mine {
+    border: 3px ridge #ad6b08;
+
+}
+
+.size-300x300 {
+    width: 300px;
+    height: 300px;
+}
+
+/* ........................the actual page styling starts from here........................ */
+
+.top-header {
+
+    width: 100%;
+    height: 78px;
+    /* border:1px solid blue; */
+    background-color: #000062;
+    color: #fff;
+}
+
+.top-header ul li {
+    list-style-type: none;
+}
+
+.top-header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.top-header ul li a:hover {
+    text-decoration: none;
+    color: aqua;
+}
+
+
+.ml-40 {
+    margin-left: 30px;
+}
+
+#service-tool {
+    margin-left: 350px;
+}
+
+#search-tool {
+    margin-right: 125px;
+    margin-left: 5px;
+}
+
+/*____________________ here comes the navigation bar with logo _________________________ */
+
+.nav-bar {
+    height: 140px;
+
+}
+
+.logo-home {
+    width: 280px;
+    height: 105px;
+    margin-top: 30px;
+    margin-right: 75px;
+    margin-left: 100px;
+}
+
+.logo-home img {
+    width: 270px;
+    height: 60px;
+    padding-right: 5px;
+    padding-top: 0px;
+
+
+}
+
+.list-control ul li {
+    list-style-type: none;
+
+}
+
+.list-control ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+}
+
+.list-control ul li a:hover {
+    text-decoration: none;
+    color: #00f;
+}
+
+/*_______________________ here comes the navigation bar with floating space ______________________ */
+
+.hover-details {
+
+    margin-top: -25px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #5E1AD5;
+    margin-right: 550px;
+    margin-top: -20px;
+}
+
+.container-one {
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #5E1AD5;
+    color: #fff;
+
+}
+
+.nav-link {
+
+    text-decoration: none;
+    color: #FFF;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+    background-color: #FFF;
+    color: #000;
+
+}
+
+.hidden-till-hover {
+    display: none;
+    /* change this display to show mega-menu */
+}
+
+/*____________________ carousel with huge images - 3 images _________________________ */
+
+.img-control {
+    width: 100%;
+    height: 595px;
+
+}
+
+.carousel-icon {
+    width: 50px;
+    height: 50px;
+    color: #FFF;
+    background-color: #000062;
+    transition: all 2s ease-in-out;
+}
+
+.white-slogan {
+    position: absolute;
+    top: 110px;
+    right: 65px;
+    color: #FFF;
+    width: 250px;
+    height: 250px;
+
+}
+
+.dis-more-btn {
+    width: 130px;
+    height: 40px;
+    border: solid;
+}
+
+.btn-slide {
+    border-color: aqua;
+    background-color: transparent;
+    color: #FFF;
+    transition: all 0.5s ease-out;
+
+}
+
+.btn-slide:hover {
+    border-color: aqua;
+    background-color: aqua;
+    color: #FFF;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -100px;
+    right: 0px;
+}
+/* ______________________end of carousel _____________________ */
+
+/* ________________________start of 4 cards _________________________ */
+
+.bg-gray{
+    background-color: #F1F0F6;
+    
+}
+
+.card-button{
+    color:#000;
+    background-color: #F1F0F6;
+    font-weight: 500;
+    
+}
+
+.card-button:hover {
+    color:#FFF;
+    font-weight: 500;
+    background-color: #010064;
+    border: #010064;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.card-button a{
+    color: #000;
+
+}
+
+.card-button:hover a{
+    color: #FFF;
+    
+}
+
+.img-resize-1{
+    width: 100px;
+    height: 124px;
+    margin:auto;
+
+}
+
+
+
+
+
+
+
+
+.theme-color {
+    color: #0000FF;
+}

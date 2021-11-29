@@ -1,0 +1,86 @@
+.main-container {
+    background-image: url("../image/coffee/pexels-photo-2067528.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+
+.logo-menu {
+    background: rgba(182, 141, 76, 1);
+    width: 300px;
+    height: 100%;
+    margin: 0px;
+    outline: 10px solid #4d2600;
+}
+
+.logo-design {
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 270px 270px;
+    border-style: solid;
+    border-left-width: 5px;
+    border-right-width: 0px;
+    border-color: #5A3E51;
+    opacity: 0.75;
+}
+
+.nav-bar {
+    background-color: #B87C4C;
+    position: relative;
+}
+
+.nav-bar li {
+    list-style-type: none;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #a7b303;
+}
+
+.nav-bar button {
+    background-color: #553e51;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 250px;
+    height: 30px;
+    position: center;
+}
+
+.nav-bar button :hover {
+    background-color: #4d004d;
+    color: brown;
+}
+
+.text-box {
+    top: 50px;
+    right: 100px;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    color: #ffcc00;
+    background-color: rgb(255, 230, 255, 0.2);
+    padding: 5px;
+}
+
+.text-box p {
+    font-size: 20px;
+}
+
+.social-media {
+    border: 2px solid rgb(24, 0, 24);
+    background-color: rgb(19, 1, 19);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.play-aud {
+    width: 290px;
+    height: 50px;
+    border: 5px solid #4d004d;
+    border-radius: 70px;
+}

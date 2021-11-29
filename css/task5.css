@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+
+}
+
+
+body {
+
+    /*  margin:0px; */
+    font-family: sans-serif;
+
+}
+
+/*__________________________ div 1 ____________________*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    border-style: none;
+    border-radius: 25px;
+    background-color: #61A9FE;
+}
+
+
+
+
+.div-one {
+    width: 300px;
+    height: 600px;
+/*    border: 0.05px solid gray;*/
+    
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-items: center;
+
+
+}
+
+.img-confine img {
+    max-height: 200px;
+    max-width: 200px;
+    margin-top: 10px;
+    margin-left:50px;
+/*    why i should make margins while i used justify content ceter and it is not working*/
+
+}
+
+
+[data-status] {
+/*    color: #88878C;*/
+    color: #0476F3;
+    background-color:whitesmoke;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 35px;
+
+}
+
+[data-status="personal"]{
+        color: #88878C;
+    background-color:whitesmoke;
+    font-size: 20px;
+    text-align: center;
+}
+
+[data-status="sleep"]{
+        color: #0476F3;
+    background-color:whitesmoke;
+    font-size: 15px;
+    text-align: center;
+    width:200px;
+    margin-left: 45px;
+}
+
+
+[data-status="free"]{
+    color: #0476F3;
+    background-color:whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.div-one button{
+    width:130px;
+    height:40px;
+    margin-left: 85px;
+    border-color: #0476F3;
+    border-radius: 5px;
+    color: #0476F3;
+    
+}
+
+
+.div-one button:hover{
+    width:130px;
+    height:40px;
+    margin-left: 85px;
+    border-color: #0476F3;
+    border-radius: 5px;
+    color: white;
+    background-color:#0476F3;
+    
+}
+
+
+
